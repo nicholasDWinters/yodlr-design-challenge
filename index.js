@@ -5,7 +5,6 @@ var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var logger = require('./lib/logger');
-var bootstrap = require('bootstrap');
 var users = require('./routes/users');
 
 var app = express();
